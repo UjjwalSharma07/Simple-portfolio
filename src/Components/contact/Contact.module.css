@@ -1,0 +1,60 @@
+.heading{
+    margin-top: 50px;
+    color: rgb(67, 66, 66);
+}
+.contactFrom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: 550px;
+}
+input,textarea{
+    background-color: rgba(128, 128, 128, 0.507);
+}
+::placeholder{
+    color: rgba(94, 91, 91, 0.832);
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    background-color: rgb(67, 66, 66);
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.inputFormat{
+    display: flex;
+}
+.input1{
+    padding: 10px;
+    margin: 5px;
+    width: 259px;
+    border: none;
+    outline-color: var(--DarkGreen);
+}
+.input2{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+
+    outline-color: var(--DarkGreen);
+}
+.btn{
+    margin-top: 20px;
+    border: none;
+    font-weight: 750;
+    background-color: var(--DarkGreen);
+    padding: 15px 20px;
+    color: var(--Light);
+    cursor: pointer;
+}
+
+

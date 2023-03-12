@@ -1,0 +1,56 @@
+.About{
+    background: linear-gradient(rgba(199, 190, 190, 0.686), rgba(236, 230, 231, 0.533), rgb(218, 212, 212));
+    z-index: 2;  
+   
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 100px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.Para{
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 10px;
+    color: rgb(15, 15, 15);
+    z-index: 3;
+}
+.skillsIcons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: rgb(15, 15, 15);
+}
+
+.iconHeader{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    background-color: rgb(67, 66, 66);
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.iconHeader p{
+    letter-spacing: 1px;
+}
+.heading{
+    margin-top: 50px;
+    color: rgb(67, 66, 66);
+}

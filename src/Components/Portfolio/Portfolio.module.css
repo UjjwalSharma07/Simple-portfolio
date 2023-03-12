@@ -1,0 +1,16 @@
+.Portfolio{
+    display: flex;
+    justify-content: center;
+}
+.bg{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 100%;
+}
+
